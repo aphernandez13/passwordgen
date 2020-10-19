@@ -3,7 +3,7 @@ Password Generator
 This application is designed to produce a more secure, randomly generated password for the user. The desired password can be between 8 - 128 characters, and can include symbols, numbers, lowercase letters, and uppercase letters based on the user's preferences.
 
 Screenshot
-passwordpic.png
+![Alt text](passwordpic.png "Title")
 
 Getting Started
 This code can be run through your computers terminal. It consists of a HTML file, a CSS file, and a JS file. Once you have accessed the HTML file simply load it into your default browser and the application will be ready to run.
