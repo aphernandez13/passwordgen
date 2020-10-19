@@ -1,48 +1,44 @@
-# 03 JavaScript: Password Generator
+Password Generator
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+This application is designed to produce a more secure, randomly generated password for the user. The desired password can be between 8 - 128 characters, and can include symbols, numbers, lowercase letters, and uppercase letters based on the user's preferences.
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+Screenshot
+passwordpic.png
 
-## User Story
+Getting Started
+This code can be run through your computers terminal. It consists of a HTML file, a CSS file, and a JS file. Once you have accessed the HTML file simply load it into your default browser and the application will be ready to run.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+Running the Application
+The application is started by clicking on the "Generate Password" button. The first prompt asks the user to input a value for the length of the password they want. After the user enters their desired password length they are prompted to select the characters they desire:
 
-## Acceptance Criteria
+Numbers
+Special characters
+Lowercase letters
+Uppercase letters
+After selecting the desired characters a password is generated to the text box on the webpage.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+Running the Tests
+If the user begins by entering a desired password length that is less than 8 or more than 128 they will be alerted that they must input a value > 8 or < 128. They will then be prompted again to input a desired password length.
 
-The following image demonstrates the application functionality:
+If the user then presses 'Cancel' instead of 'Enter' for each option for numeric, special, lowercase, or uppercase characters they are alerted that at least one type of character must be chosen. They are then informed they need to refresh the page and start from the beginning.
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+Link to deployed app
+https://aphernandez13.github.io/passwordgen/
 
-## Review
+Languages/Tech Used
+HTML CSS JavaScript
 
-You are required to submit the following for review:
+License
+MIT License
 
-* The URL of the deployed application.
+Copyright (c) 2020 Alfredo
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Contact
+Email: alfredopedrozahernandez13@gmail.com
